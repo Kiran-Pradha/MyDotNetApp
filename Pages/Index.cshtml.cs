@@ -13,6 +13,6 @@ public class IndexModel : PageModel
     }
 
     public void OnGet(){
-    ViewData["Message"] = Environment.GetEnvironmentVariable("MY_NAME");
+        ViewData["Message"] = Environment.GetEnvironmentVariable("MY_NAME");
     }
 }
